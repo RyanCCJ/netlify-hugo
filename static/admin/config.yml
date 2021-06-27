@@ -10,19 +10,40 @@ media_folder: "static/img/uploads" # Media files will be stored in the repo unde
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+  - name: "心情隨筆" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+    folder: "/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
-    filter:
-      field: language
-      value: en
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "發佈日期", name: "date", widget: "datetime"}
+      - {label: "封面相片", name: "thumbnail", widget: "image"}
+      - {label: "隨便什麼鬼設定...", name: "rating", widget: "number"}
+      - {label: "內文", name: "body", widget: "markdown"}
+  - name: "登山" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "發佈日期", name: "date", widget: "datetime"}
+      - {label: "封面相片", name: "thumbnail", widget: "image"}
+      - {label: "隨便什麼鬼設定...", name: "rating", widget: "number"}
+      - {label: "內文", name: "body", widget: "markdown"}
+  - name: "程式" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "標題", name: "title", widget: "string"}
+      - {label: "發佈日期", name: "date", widget: "datetime"}
+      - {label: "封面相片", name: "thumbnail", widget: "image"}
+      - {label: "隨便什麼鬼設定...", name: "rating", widget: "number"}
+      - {label: "內文", name: "body", widget: "markdown"}
 
