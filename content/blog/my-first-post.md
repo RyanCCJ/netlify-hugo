@@ -1,18 +1,22 @@
-+++
-author = "RyanCCJ"
-categories = ["登山"]
-tags = ["登山","溯溪","全台"]
-date = "2021-06-25"
-description = "文章測試一"
-featured = ""
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-title = "溯溪地點推薦"
-type = "post"
-
-+++
-
+---
+author: RyanCCJ
+thumbnail: /img/uploads/01.jpg
+featured: ""
+date: 2021-06-25
+featuredpath: ""
+title: 溯溪地點推薦
+tags:
+  - 登山
+  - 溯溪
+  - 全台
+type: post
+featuredalt: ""
+categories:
+  - 登山
+description: 文章測試一
+rating: 21
+linktitle: ""
+---
 # 地點
 
 單日行程：
@@ -30,13 +34,19 @@ type = "post"
 新竹（尖石、五峰）、南投（廬山、信義）、新北（烏來、北海岸）臺中（谷關系列）、........。
 
 ### 雨靜推薦：
+
 三光溪、南澳溪、澳花溪、黃金峽谷上溯主流
 
 ### 彥丰推薦：
+
 新武呂溪
 
 ### 我：
+
 苗栗 風美溪 苦花潭
 屏東 萬流溪（需雨季）
 台中 谷關 鞍馬溪
 
+### Test for new edit
+
+123
