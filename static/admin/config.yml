@@ -10,8 +10,8 @@ media_folder: "static/img/uploads" # Media files will be stored in the repo unde
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "心情隨筆" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+  - name: "blog1" # Used in routes, e.g., /admin/collections/blog
+    label: "心情隨筆" # Used in the UI
     folder: "/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -22,8 +22,8 @@ collections:
       - {label: "封面相片", name: "thumbnail", widget: "image"}
       - {label: "隨便什麼鬼設定...", name: "rating", widget: "number"}
       - {label: "內文", name: "body", widget: "markdown"}
-  - name: "登山" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+  - name: "blog2" # Used in routes, e.g., /admin/collections/blog
+    label: "登山" # Used in the UI
     folder: "/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -34,8 +34,8 @@ collections:
       - {label: "封面相片", name: "thumbnail", widget: "image"}
       - {label: "隨便什麼鬼設定...", name: "rating", widget: "number"}
       - {label: "內文", name: "body", widget: "markdown"}
-  - name: "程式" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
+  - name: "blog3" # Used in routes, e.g., /admin/collections/blog
+    label: "程式" # Used in the UI
     folder: "/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
