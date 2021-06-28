@@ -148,7 +148,7 @@ canonifyURLs = true
  
  [[menu.main]]
   name = "登入"
-  url = "/https://ryanccj-website-demo2.netlify.app/admin"
+  url = "https://ryanccj-website-demo2.netlify.app/admin"
   weight = 7
 
 # Sets Social Media icons to appear and link to your account. Value should be your
