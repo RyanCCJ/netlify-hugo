@@ -2,6 +2,8 @@
     {{ $.Scratch.Set "shareNav" true }}
     {{ partial "navbar" . }}
     <!-- Netlify CMS redirect -->>
+    <div data-netlify-identity-menu></div>
+    <div data-netlify-identity-button>Login with Netlify Identity</div>
     <script>
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", user => {
