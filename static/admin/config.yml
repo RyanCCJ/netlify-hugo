@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 display_url: https://ryanccj-website-demo2.netlify.app
-logo_url: https://ryanccj-website-demo2.netlify.app/static/img/main/logo-0.jpg
+logo_url: https://i.imgur.com/EihAE2g.jpg
 locale: 'zh-TW'
 
 # This line should *not* be indented
