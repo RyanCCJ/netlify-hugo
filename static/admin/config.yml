@@ -4,7 +4,7 @@ backend:
 
 display_url: https://ryanccj-website-demo2.netlify.app
 logo_url: https://i.imgur.com/EihAE2g.jpg
-locale: 'zh-TW'
+locale: 'zh'
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
